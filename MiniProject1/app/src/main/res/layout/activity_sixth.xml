@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f"
+    android:orientation="vertical"
+    tools:context=".Sixth">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button22"
+            android:layout_width="104dp"
+            android:layout_height="58dp"
+            android:background="#FF1744"
+            android:text="back" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="411dp"
+        android:layout_height="73dp"
+        android:background="#B3E5FC"
+        android:hint="Type Here"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="157dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp">
+
+        <Button
+            android:id="@+id/button23"
+            android:layout_width="143dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="4dp"
+            android:background="#EF5350"
+            android:text="click for voice"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

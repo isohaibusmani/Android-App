@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    android:orientation="vertical"
+    tools:context=".Fourth">
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="114dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="296dp"
+        android:background="#00897B"
+        android:text="back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:background="#E0F2F1"
+        android:hint="Enter Your 1st Number"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="117dp" />
+
+    <LinearLayout
+        android:layout_width="397dp"
+        android:layout_height="57dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#E0F2F1"
+        android:hint="Enter Your 2nd Number"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="97dp"
+        android:layout_height="43dp"
+        android:background="#FFE0B2"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484"
+        tools:layout_editor_absoluteX="17dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:background="#B39DDB"
+            android:text="add"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="442dp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="183dp"
+            android:layout_height="match_parent"
+            android:background="#B39DDB"
+            android:text="subtract"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="442dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/divider4"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="191dp"
+            android:layout_height="match_parent"
+            android:background="#B39DDB"
+            android:text="multiply"
+            tools:layout_editor_absoluteX="44dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="42dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="?android:attr/listDivider" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:background="#B39DDB"
+            android:text="Division"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="592dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
